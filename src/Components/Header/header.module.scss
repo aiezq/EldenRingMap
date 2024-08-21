@@ -1,0 +1,25 @@
+.container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100px;
+    padding-inline: 30px;
+    background: rgba(203, 195, 157, 0.4);
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+
+    .header {
+        font-size: 40px;
+        color: #ffffff;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        user-select: none;
+        cursor: default;
+    }
+}
